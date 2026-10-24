@@ -174,11 +174,4 @@ Base : **`dbqueries`**
 | Port 3306 occupé | Arrêter l'autre service MySQL en cours d'exécution |
 | `'php' n'est pas reconnu` | Utiliser le chemin complet `C:\xampp\php\php.exe` |
 
-## 👩‍💻 Auteure
 
-**Aya Zouine** — Étudiante en développement logiciel et technologies de l'information, IGA Belvédère, Casablanca.
-GitHub : [@Aya634-ai](https://github.com/Aya634-ai)
-
-> Ce projet est basé sur un projet de librairie open source, adapté pour une boutique de cosmétiques. Vérifiez la licence du projet d'origine avant toute réutilisation.
-
-> 🔒 Les mots de passe sont stockés en MD5, ce qui est insuffisant en production. Utilisez `password_hash()` et `password_verify()` de PHP pour un usage réel.
