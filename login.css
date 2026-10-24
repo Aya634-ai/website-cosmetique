@@ -11,6 +11,46 @@
     --inp-col:#8f8f8f;
     
  }
+ .social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login p {
+    font-size: 1em;
+    color: var(--blk-col);
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--whi-col);
+    border: 1px solid var(--inp-col);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--inp-col);
+}
+
+.social-icons a:hover {
+    background: var(--blk-col);
+    color: var(--whi-col);
+    transform: scale(1.1);
+}
+
+.social-icons a i {
+    font-size: 1.2em;
+}
 
 *{
     margin: 0;

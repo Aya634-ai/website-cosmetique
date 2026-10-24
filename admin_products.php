@@ -90,7 +90,7 @@ if(isset($_POST['update_product'])){
 include 'admin_header.php';
 ?>
 
-<section class="admin_add_products">
+<section class="admin_add_products" style="margin-bottom:100px;">
   <form action="" method="post" enctype="multipart/form-data">
     <h3>Add Product</h3>
     <input type="text" name="name" class="admin_input" placeholder="Enter Product Name" required>

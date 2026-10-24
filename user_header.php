@@ -14,9 +14,9 @@ if(isset($message)){
   <div class="header_1">
     <div class="user_flex">
       <div class="logo_cont">
-        <img src="book_logo.png" alt="">
+        <img src="image.jpg" alt="">
 
-        <a href="home.php" class="book_logo">Bookiee</a>
+        <a href="home.php" class="book_logo">Glow & GO</a>
       </div>
 
 
@@ -35,17 +35,17 @@ if(isset($message)){
 
         <div class="icons">
         <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-          <a class="fa-solid fa-magnifying-glass" href="search_page.php"></a>
+          <a class="fa-solid fa-magnifying-glass" href="search_page.php"  style="color: #8c6638";></a>
 
-          <div class="fas fa-user" id="user_btn"></div>
+          <div class="fas fa-user" id="user_btn"  style="color: #8c6638";></div>
           <?php
           $select_cart_number=mysqli_query($conn,"SELECT * FROM `cart` where user_id='$user_id'") or die('query failed');
           $cart_row_number=mysqli_num_rows($select_cart_number);
           ?>
 
-          <a href="cart.php"><i class="fas fa-shopping-cart"></i><span class="quantity">(<?php echo $cart_row_number?>)</span></a>
+          <a href="cart.php"><i class="fas fa-shopping-cart"  style="color: #8c6638";></i><span class="quantity">(<?php echo $cart_row_number?>)</span></a>
 
-          <div class="fas fa-bars" id="user_menu_btn"></div>
+          <div class="fas fa-bars" id="user_menu_btn"  style="color: #8c6638";></div>
 
         </div>
 

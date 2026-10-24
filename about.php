@@ -20,8 +20,67 @@ if(!isset($user_id)){
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="home.css">
+  
+<style>
+  /* About Section */
+.about_cont, .questions_cont {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #f9f5f1; /* Crème clair */
+}
 
+.about_cont img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.about_descript, .questions {
+  color: black; /* Gris foncé */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.about_descript h2, .questions h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #8c6638; /* Brun doré */
+}
+
+.about_descript h4, .questions h4 {
+  margin-bottom: 0; /* Supprime l'espace en bas de l'h4 */
+}
+
+.about_descript p, .questions p {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-top: 0.5rem; /* Ajustez cette valeur si nécessaire */
+  margin-bottom: 0; /* Supprime l'espace en bas du paragraphe */
+}
+
+.questions button, .about_descript button {
+  width: 30%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #8c6638; /* Brun doré */
+  color: #f9f5f1;
+  border: none;
+  border-radius: 20px;
+}
+
+.questions button:hover, .about_descript button:hover {
+  background-color: #e5d8c3; /* Gris foncé */
+  color: #4a4a4a; /* Beige doux */
+}
+</style>
 </head>
 <body>
   
@@ -29,11 +88,19 @@ if(!isset($user_id)){
 include 'user_header.php';
 ?>
 <section class="about_cont">
-    <img src="about1.jpg" alt="">
+    <img src="imag.jpg" alt="">
     <div class="about_descript">
-      <h2>Why Choose Us ?</h2>
-      <p>With our extensive collection of books spanning various genres, you'll find the perfect read to satisfy your cravings. Our knowledgeable staff of passionate book enthusiasts is always ready to offer personalized recommendations and guide you toward hidden gems. We take pride in fostering an inclusive community, hosting engaging events, book clubs, and author meet-ups. Additionally, our seamless online presence allows you to browse, explore, and order books from the comfort of your home, ensuring secure transactions and timely deliveries. At Bookiee, customer satisfaction is paramount. We are dedicated to delivering exceptional service, promptly addressing any queries or concerns. Join us in celebrating the power of books to inspire, educate, and entertain. Let us be your trusted companion on your literary adventures.
-    </p>
+    <h2>About Us</h2>
+<h4>You deserve limitless beauty</h4>    
+<p > Glow and Go developed a high-quality range of cosmetic products prioritizing effectiveness, safety, and natural radiance. Collaborated with industry experts and utilized in-depth scientific research to create formulations delivering visible, long-lasting results.</p>
+<h4>Who are we ?</h4>
+<P>
+Glow and Go Embarked on a passion-driven journey to explore and share the transformative power of dermocosmetics. As the creator of Glow and go, this endeavor represents a deeply personal exploration beyond branding, rooted in innovation and dedication to skincare excellence.</P>
+
+    <h4>Our Mission</H4>
+    <P>To make premium skincare accessible by exceeding traditional standards, delivering results-driven products grounded in science.</P>
+      <h4>Our Vision</h4>
+<p>Glow and Go Advocates for authenticity by creating not just products, but a holistic experience and community where beauty and science coexist harmoniously.</p> 
     </div>
   </section>
 
